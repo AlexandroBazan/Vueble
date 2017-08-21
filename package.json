@@ -1,0 +1,32 @@
+{
+  "name": "vueble",
+  "version": "0.1.0",
+  "description": "Responsive and smart vue.js datatable component",
+  "main": "./dist",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandroBazan/vueble.git"
+  },
+  "keywords": [
+    "vue",
+    "datatable",
+    "responsive",
+    "smart",
+    "vueble",
+    "vuejs",
+    "vue",
+    "2"
+  ],
+  "author": "Alexandro Bazan Ladines",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexandroBazan/vueble/issues"
+  },
+  "homepage": "https://github.com/AlexandroBazan/vueble#readme"
+}
