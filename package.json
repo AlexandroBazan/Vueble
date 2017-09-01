@@ -1,11 +1,8 @@
 {
   "name": "vueble",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Responsive and smart vue.js datatable component",
-  "main": "./dist",
-  "directories": {
-    "example": "example"
-  },
+  "main": "./dist/Vueble.vue",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

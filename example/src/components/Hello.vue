@@ -5,8 +5,34 @@
         <div class="content-box-panel">
           <vueble 
             :items="json"
-            page-length="3"
-          ></vueble>
+            :page-length="3"
+            :searchable-props="['ruta.Codigo','persona.DocIdentidad','persona.Nombre']"
+          >
+                  <tr slot="colums">
+              <th><i class="fa fa-truck"> </i> Ruta</th>
+              <th><i class="fa fa-user"> </i> RUC / DNI</th>
+              <th><i class="fa fa-user"> </i> Vendedor</th>
+              <th style="width:150px"><i class="fa fa-shopping-cart"> </i> Cta. Surtido</th>
+              <th style="width:150px"><i class="fa fa-users"> </i> Cta. Cobertura</th>
+            </tr>
+
+            <template slot="row" scope="item">
+              <tr >
+                <td>{{item.scope.ruta.Codigo}}</td>
+                <td>{{item.scope.persona.DocIdentidad}}</td>
+                <td>{{item.scope.persona.Nombre}}</td>
+
+                <td style="text-align: right;">
+                  {{item.scope.CuotaSurtidos}}
+                </td>
+                
+                <td style="text-align: right;">
+                        
+                      {{item.scope.CuotaCobertura}}
+                </td>
+              </tr>
+            </template>
+          </vueble>
         </div>
       
     </div>
