@@ -84,3 +84,6 @@ Para poder acceder a las propiedades o subpropiedades del ```item``` de nuestro 
     </template>
 </vueble>
 ```
+
+## License
+[MIT](LICENSE.txt) License
