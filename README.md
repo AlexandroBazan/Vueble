@@ -45,6 +45,7 @@ Solo necesitas pasar el Json con la data que quieres renderizar en el datatable,
 <vueble :items="JsonData" :page-length="3"></vueble>
 ```
 Resultado:
+
 ![](https://image.ibb.co/jDhxda/On_Paste_20170905_134523.png)
 #### searcheable props
 Esta opción permite restringir o parametrizar el filtro de busqueda, se puede acceder a propiedades anidadas o subpropiedades con el operador ```.```
