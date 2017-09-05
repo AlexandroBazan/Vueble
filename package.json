@@ -1,6 +1,6 @@
 {
   "name": "vueble",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Responsive and smart vue.js datatable component",
   "main": "./dist/Vueble.vue",
   "scripts": {

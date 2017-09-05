@@ -1,4 +1,4 @@
-/*[{"id":1,"first_name":"Butch","last_name":"Dayment","email":"bdayment0@buzzfeed.com","gender":"Male","ip_address":"120.253.56.196"},
+export default [{"id":1,"first_name":"Butch","last_name":"Dayment","email":"bdayment0@buzzfeed.com","gender":"Male","ip_address":"120.253.56.196"},
 {"id":2,"first_name":"Estele","last_name":"Hannan","email":"ehannan1@illinois.edu","gender":"Female","ip_address":"134.118.105.164"},
 {"id":3,"first_name":"Margeaux","last_name":"Ginni","email":"mginni2@unicef.org","gender":"Female","ip_address":"19.51.232.151"},
 {"id":4,"first_name":"Karin","last_name":"Paolino","email":"kpaolino3@mozilla.com","gender":"Female","ip_address":"122.23.177.235"},

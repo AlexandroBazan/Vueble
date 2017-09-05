@@ -4,11 +4,11 @@
     <div class="content-box">
         <div class="content-box-panel">
           <vueble 
-            :items="json"
             :page-length="3"
-            :searchable-props="['ruta.Codigo','persona.DocIdentidad','persona.Nombre']"
+            :items="json"
+            
           >
-                  <tr slot="colums">
+                  <!--tr slot="colums">
               <th><i class="fa fa-truck"> </i> Ruta</th>
               <th><i class="fa fa-user"> </i> RUC / DNI</th>
               <th><i class="fa fa-user"> </i> Vendedor</th>
@@ -31,7 +31,7 @@
                       {{item.scope.CuotaCobertura}}
                 </td>
               </tr>
-            </template>
+            </template-->
           </vueble>
         </div>
       
@@ -41,7 +41,7 @@
 
 <script>
 
-import mock from './mock.js'
+import mock from './mock2.js'
 export default {
   name: 'hello',
   data () {

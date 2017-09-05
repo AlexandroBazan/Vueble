@@ -109,8 +109,6 @@
         if (this.query.search == '') {
           items = this.items;
         } else {
-          
-
           items = this.search();
 
           this.query.page = 1;
@@ -249,9 +247,6 @@
           this.query.page++;
         }
       },
-      /**
-       * This function back to previous page
-       */
       prev() {
         if(this.query.page  > 1) {
           this.query.page--;
@@ -266,11 +261,6 @@
         
         return keys;
       },
-      /**
-       * This function change page nunber
-       * 
-       * @param  {[Number]} page 
-       */
       changePage(page) {
         this.query.page = page;
       }
