@@ -18,7 +18,12 @@ Abre tu consola preferida en la ruta principal de tu proyecto vue2 y escribe el 
 ```npm
 $ npm install vueble --save
 ```
+luego importalo a tu proyecto vue
+```javascript
+import vueble from 'vueble'
 
+Vue.use(vueble)
+```
 ##  Propiedades
 
 | Propiedad | Tipo de dato |Descripcion |Requerido |
